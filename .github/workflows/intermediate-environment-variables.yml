@@ -3,7 +3,7 @@ on: push
 jobs:
   print:
     runs-on: ubuntu-latest
-    ev:
+    env:
       ACTOR: ${{ github.actor }}
     steps:
       - run: echo "${ACTOR}"

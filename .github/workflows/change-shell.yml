@@ -1,5 +1,5 @@
 name: Change Shell
-onn: push
+on: push
 jobs:
   print:
     runs-on: ubuntu-latest
